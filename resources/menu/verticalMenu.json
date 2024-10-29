@@ -1,0 +1,95 @@
+{
+  "menu": [
+    {
+      "url": "/hms",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-smile",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Himasar"
+    },
+    {
+      "url": "/anggota",
+      "name": "Anggota",
+      "icon": "menu-icon tf-icons bx bx-user-pin",
+      "slug": "tabel",
+      "submenu": [
+        {
+          "url": "anggota/tabel-bph",
+          "name": "BPH",
+          "slug": "tabel-bph"
+        },
+        {
+          "url": "anggota/tabel-amd",
+          "name": "AMD",
+          "slug": "tabel-amd"
+        },
+        {
+          "url": "anggota/tabel-demisioner",
+          "name": "Anggota Lepas",
+          "slug": "tabel-demisioner"
+        },
+        {
+          "url": "anggota/tabel-mantum",
+          "name": "Ketua Ketua",
+          "slug": "tabel-mantum"
+        }
+      ]
+    },
+    {
+      "url": "calon-anggota",
+      "name": "Calon Anggota",
+      "icon": "menu-icon tf-icons bx bx-user-plus",
+      "slug": "calon-anggota"
+    },
+    {
+      "menuHeader": "Kegiatan"
+    },
+    {
+      "name": "Postingan",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "kegiatan",
+      "submenu": [
+        {
+          "url": "kegiatan/tabel-event",
+          "name": "Event",
+          "slug": "kegiatan-event"
+        },
+        {
+          "url": "kegiatan/tabel-news",
+          "name": "Blog",
+          "slug": "kegiatan-news"
+        }
+      ]
+    },
+    {
+      "url": "kegiatan/tabel-proker",
+      "name": "Program Kerja",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "proker"
+    },
+    {
+      "menuHeader": "Apps & Pages"
+    },
+    {
+      "name": "Authentications",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "auth/register-basic",
+          "name": "Register",
+          "slug": "auth-register-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/forgot-password-basic",
+          "name": "Forgot Password",
+          "slug": "auth-forgot-password-basic",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}
