@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         $password = env('DB_PASSWORD');
         $database = env('DB_DATABASE');
         $host = env('DB_HOST');
-        $file = database_path('../hima_database.sql'); // sesuaikan path file .sql
+        $file = database_path('hima_database.sql'); // sesuaikan path file .sql
 
         $command = "mysql -u{$username} -p{$password} -h{$host} {$database} < {$file}";
 
