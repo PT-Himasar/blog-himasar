@@ -101,3 +101,6 @@ Route::get('/pages/account-settings-notifications', [AccountSettingsNotification
 Route::get('/pages/account-settings-connections', [AccountSettingsConnections::class, 'index'])->name('pages-account-settings-connections');
 Route::get('/pages/misc-error', [MiscError::class, 'index'])->name('pages-misc-error');
 Route::get('/pages/misc-under-maintenance', [MiscUnderMaintenance::class, 'index'])->name('pages-misc-under-maintenance');
+
+
+Route::get('/alumni', [\App\Http\Controllers\AlumniController::class, 'index'])->name('alumni');
